@@ -1,0 +1,124 @@
+div{
+    padding: 20px;
+}
+
+.logo-img{
+    display: block;
+    margin: 0 auto; 
+}
+
+.center-span{
+    text-align: center;
+    margin: 0 auto;
+}
+
+div>fieldset>h2{
+    text-align: left;
+}
+
+label[for='email']{
+    text-align: left;
+    display: block;
+}
+
+label[for='password']{
+    position: relative;
+    right: 1.5vw;
+}
+
+.forgotpass{
+    position: relative;
+    right: -3vw;
+}
+button{
+    width:75%;
+    text-align: center;
+    margin-bottom: 25px;
+    background-color: #e7e9ec;
+    border: 1px solid #adb1b8;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+fieldset{
+    width: 75%;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 5px 25px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+
+fieldset label{ 
+    font-size: 90%;
+}
+
+label[for=Help]::before{
+    content: '\01F892';
+    font-size: large;
+}
+
+.line{
+    display: block;
+    width: 30%;
+    height: 4px;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 1em 0;
+    padding: 5px;
+}
+
+.need-help{
+    transform: translate(-10vw,0);
+}
+
+button{
+    background-color: #f7c548;
+    border-color: #a88734 #9c7e31 #846a29;
+    width: 20%;
+    text-align: center;
+    margin-top: 50px;
+}
+h4{
+    color: #767676;
+    background-color: white;
+    width: 30%;
+    border-bottom: 1px solid #767676;
+    padding: 4px;
+    line-height: 0.1em;
+    margin: 30px 0 20px;
+
+}
+
+form input{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 2px;
+    margin-bottom: 25px;
+}
+
+form input[type="submit"]{
+    background-color: #f7c548;
+    border-color: #a88734 #9c7e31 #846a29;
+    font-size: 090%;
+}
+
+footer{
+    border-top: 2px solid #adb1b8;
+}
+
+#footerElem>div>a>p{
+    display: inline;
+    text-align: center;
+    padding: 10px 0 5px 0;
+    font-size: 80%;
+    margin: 20px;
+}
+
+#footerElem>p{
+    font-size: 80%;
+    text-align: center;
+    padding: 5px;
+}
